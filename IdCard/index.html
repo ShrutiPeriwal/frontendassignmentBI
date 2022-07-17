@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Student Id Cart</title>
+        <link rel="stylesheet" href="index.css" >
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <h3>Fill the Form</h3>
+                <label>Enter your Name</label>
+                <input type="text" id="inName" placeholder="Enter your Name">
+                <label>Enter your College Name</label>
+                <input type="text" id="inCollege" placeholder="Enter your College Name">
+                <label>Enter Location</label>
+                <input type="text" id="inLocation" placeholder="Enter your Location">
+                <label for="file" class="upload">Upload Image</label>
+                <br>
+                
+                <input type="file" id="file" accept="image/*" onchange="loadImage(event)">
+           </form>
+           <button type="button" id="generatecard">Generate Card</button>
+
+           <div class="Container-hide" id="generateDiv">
+            <div class="card" id="result">
+                <header id="head">
+                    <div class="camp">
+                        <span>Campus Card</span>
+                    </div>
+                </header>
+
+                <div class="content">
+                    <img src="" id="img-Display">
+                    <ul>
+                        <li id="name"></li>
+                        <li id="college"></li>
+                        <li id="location"></li>
+                    </ul>
+                </div>
+            </div>
+           </div>
+        </div>
+        <script src='index.js'></script>
+    </body>
+</html>
