@@ -1,0 +1,37 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #343a40;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;  
+}
+.stopwatch{
+    background-color: gold;
+    text-align: center;
+    width: 40vw;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+button{
+    justify-content: space-evenly;
+    background-color: gold;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    margin: 10px 15px ;
+    border: 2px solid white;
+    font-family: inherit;
+}
+h1{
+    padding: 15px;
+}
+
+#timer{
+   font-size: 2.5rem;
+}
